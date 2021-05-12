@@ -7,7 +7,6 @@ body {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    /* background-color: #444; */
 }
 
 .nav li {
@@ -46,11 +45,3 @@ li {
     display: block;
 }
 
-.citation strong {
-    display: block;
-}
-
-.citation em::before {
-    content: '\A';
-    white-space: pre;
-}
